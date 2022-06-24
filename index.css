@@ -1,0 +1,131 @@
+body{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+  padding: 0%;}
+
+
+#logo{width: 40px;
+      border-radius: 50%;
+      }
+  iframe{width: 200px;
+         height: 200px;}
+#mypic{
+   width: 300px;
+   
+}
+#mypic_container{border-right: 2px solid snow;
+}
+#showcase{
+  /* background-image: url(showcase.jpg); */
+          min-height: 400px;
+          background-position:center ;
+          padding-top: 50px;
+          animation: example 10s infinite ;
+          animation-delay: 5s;
+          text-transform: capitalize;
+          background-size: cover;
+          text-align: center;
+          color: #ffffff;
+}
+/* 
+@keyframes example {
+  0%{  background-image: url(showcase.jpg);  }
+  100%{ 
+    background-image: url(laptopgusy.jpg); 
+        }
+} */
+ .valour{color:#e8491d;
+              }
+#active{
+        font-style: italic;
+     }
+a{text-decoration: none;
+  color: #35424a;}s
+a:hover{color: #e8491d;}
+a:active{color: green;}
+#newsletter{background-color: #35424a;
+         padding: 8px;
+       color: snow;}
+#newsletter_btn{background-color: tomato ;
+               color: snow;
+               border: none;}
+
+
+               /* from services.php */
+               #qoute{height: 400px;
+                box-shadow: 2px 3px 4px 5px black;   
+              border-radius: 5px;
+              }
+                #input{
+                     background-color: transparent;
+                     border: none;
+                     text-transform: capitalize;
+                    color: snow;
+                    border-bottom: 2px solid grey;}
+                    
+         #message{
+                     background-color: transparent;
+                     border: none;
+                     text-transform: capitalize;
+                    color: snow;
+                    max-height: 120px;
+                    min-height: 80px;
+                    border: 2px solid grey;}
+         button{width: 100px;  }
+               /* endb */
+
+
+footer{background-color: #35424a;
+    text-align: center;
+    padding: 8px;
+    color: snow;}
+
+
+
+
+
+
+
+    /* for port folio page */
+    #portfolio_pic{height: 250px; 
+                   margin-top: -278px;
+                  width: 300px;
+                  text-align: center;
+                  border-radius: 20px;
+
+      }
+    #hover-item{height: 250px;
+               position: relative;
+                width: 300px;
+                border-radius: 20px;
+                margin: auto;
+                text-align: left;
+                text-transform: capitalize;
+                padding: 10px;
+                transition: all ease-in-out;
+                opacity: 0;
+              }
+  #hover-item:hover{opacity: 1;
+                   transition: ease-in-out;}
+
+
+
+                   /*for  about page */
+#about_cards{ box-shadow: 2px 3px 4px 5px black;}
+#about_cards:hover{ background-color: black;   }
+
+/* for blog */
+#blog_box{
+  height: 250px; 
+ width: 300px;
+ text-align: center;
+ border-radius: 20px;
+}
+#blog_boxs{box-shadow: 2px 3px 4px 5px black;
+            border-radius: 15px;
+}
+
+/* for contact pages */
+/* #qoutes{height: 400px;
+  box-shadow: 2px 3px 4px 5px black;   
+border-radius: 25px;
+} */
